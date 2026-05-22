@@ -47,4 +47,9 @@ curl -X POST http://localhost:8080/departments/ \
 
 ## Стек
 
-Go + PostgreSQL + GORM + Docker
+- Go 1.23 (net/http)
+- PostgreSQL + GORM
+- Docker + docker-compose
+- goose (миграции)
+- testify + httptest (тесты)
+- логирование (middleware)
