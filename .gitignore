@@ -1,4 +1,4 @@
 .env
 *.exe
 .idea/
-*.log
+*.log.env
